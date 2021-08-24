@@ -1,6 +1,7 @@
 <h1 align=center>
     <img src="https://media.giphy.com/media/QVQ02uuoQIpKo/giphy.gif" />
     <br />
+    <br />
     Insight Eyes
     <br />
     <a href="https://github.com/d0t0n10n/Insight-Eyes">
@@ -31,3 +32,4 @@
         <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
     </a>
 </h1>
+
