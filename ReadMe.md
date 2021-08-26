@@ -32,5 +32,3 @@
         <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
     </a>
 </h1>
-
-<hr />
