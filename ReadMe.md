@@ -32,3 +32,7 @@
         <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
     </a>
 </h1>
+
+Chess AI that works like this:
+  * [**Alpha-Beta Pruning**](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) for motion search.
+  * [**Move Ordering**](https://www.chessprogramming.org/Move_Ordering) based on heuristics such as captures and promotions.
