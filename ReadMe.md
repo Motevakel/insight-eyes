@@ -38,3 +38,5 @@ Chess AI that works like this:
   * [**Move Ordering**](https://www.chessprogramming.org/Move_Ordering) based on heuristics such as captures and promotions.
   * **Tomasz Michniewski**'s [**Simplified Evaluation Function**](https://www.chessprogramming.org/Simplified_Evaluation_Function) for board evaluation and **Piece Square** tables.
   * An excerpt from the *Universal Chess Interface (UCI)* to allow challenges via [LiChess.org](https://lichess.org/).
+
+It uses **Python 3** with **MyPy** type hints and unit and integration tests.
