@@ -38,7 +38,13 @@
 ## Use
 
 Use the following command to install the required packages:
-
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
+
+Now is the time to run and use this project:
+```bash
+python3 main.py
+```
+
+Finally enjoy the game!
