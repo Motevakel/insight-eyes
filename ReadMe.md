@@ -33,7 +33,13 @@
     </a>
 </h1>
 
-# ADD INTRO
+Hi everyone!
+<br />
+This project is a chess AI ([chess-engine](https://en.wikipedia.org/wiki/Chess_engine)).
+
+**What is Chess-Engine?**
+<br />
+A chess-engine is usually a back-end with a command line interface without graphics or windows. Engines are usually used with a front-end, a graphical user interface with window like Chessbase or WinBoard. Many chess engines are now available for mobile phones and tablets, making them even more accessible. Chess engines can play against multiple engines without having to learn a new user interface for each one. So different engines can play against other and the user can play with multiple engines.
 
 ## Use
 
