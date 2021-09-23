@@ -21,8 +21,8 @@ def command(depth: int, board: chess.Board, msg: str):
         sys.exit()
 
     if msg == "uci":
-        print("id name Andoma")
-        print("id author Andrew Healey & Roma Parramore")
+        print("ID name dotOnion")
+        print("ID author dotOnion")
         print("uciok")
         return
 
