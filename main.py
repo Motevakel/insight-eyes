@@ -1,17 +1,11 @@
-# inspired by the https://github.com/thomasahle/sunfish user inferface
-
 import chess
 import argparse
 from movegeneration import next_move
 
-
 def start():
-    """
-    Start the command line user interface.
-    """
     board = chess.Board()
     user_side = (
-        chess.WHITE if input("Start as [w]hite or [b]lack:\n") == "w" else chess.BLACK
+        chess.WHITE if input("Start as a [b]lack bead or [w]hite bead?\n") == "w" else chess.BLACK
     )
 
     if user_side == chess.WHITE:
@@ -27,9 +21,6 @@ def start():
 
 
 def render(board: chess.Board) -> str:
-    """
-    Print a side-relative chess board with special chess characters.
-    """
     board_string = list(str(board))
     uni_pieces = {
         "R": "♖",
@@ -58,26 +49,19 @@ def render(board: chess.Board) -> str:
     display.append("    a b c d e f g h")
     return "\n" + "\n".join(display)
 
-
 def get_move(board: chess.Board) -> chess.Move:
-    """
-    Try (and keep trying) to get a legal next move from the user.
-    Play the move by mutating the game board.
-    """
-    move = input(f"\nYour move (e.g. {list(board.legal_moves)[0]}):\n")
+    move = input(f"\nYour move (Like: {list(board.legal_moves)[0]}):\n")
 
     for legal_move in board.legal_moves:
         if move == str(legal_move):
             return legal_move
     return get_move(board)
 
-
 def get_depth() -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--depth", default=3, help="provide an integer (default: 3)")
+    parser.add_argument("--depth", default=3, help="Provide an integer (Default: 3)")
     args = parser.parse_args()
     return max([1, int(args.depth)])
-
 
 if __name__ == "__main__":
     try:
