@@ -1,10 +1,5 @@
 import chess
 
-# this module implement's Tomasz Michniewski's Simplified Evaluation Function
-# https://www.chessprogramming.org/Simplified_Evaluation_Function
-# note that the board layouts have been flipped and the top left square is A1
-
-# fmt: off
 piece_value = {
     chess.PAWN: 100,
     chess.ROOK: 500,
@@ -95,17 +90,8 @@ kingEvalEndGameWhite = [
     -50, -40, -30, -20, -20, -30, -40, -50
 ]
 kingEvalEndGameBlack = list(reversed(kingEvalEndGameWhite))
-# fmt: on
-
 
 def move_value(board: chess.Board, move: chess.Move, endgame: bool) -> float:
-    """
-    How good is a move?
-    A promotion is great.
-    A weaker piece taking a stronger piece is good.
-    A stronger piece taking a weaker piece is bad.
-    Also consider the position change via piece-square table.
-    """
     if move.promotion is not None:
         return -float("inf") if board.turn == chess.BLACK else float("inf")
 
@@ -127,11 +113,7 @@ def move_value(board: chess.Board, move: chess.Move, endgame: bool) -> float:
 
     return current_move_value
 
-
 def evaluate_capture(board: chess.Board, move: chess.Move) -> float:
-    """
-    Given a capturing move, weight the trade being made.
-    """
     if board.is_en_passant(move):
         return piece_value[chess.PAWN]
     _to = board.piece_at(move.to_square)
@@ -141,7 +123,6 @@ def evaluate_capture(board: chess.Board, move: chess.Move) -> float:
             f"Pieces were expected at _both_ {move.to_square} and {move.from_square}"
         )
     return piece_value[_to.piece_type] - piece_value[_from.piece_type]
-
 
 def evaluate_piece(piece: chess.Piece, square: chess.Square, end_game: bool) -> int:
     piece_type = piece.piece_type
@@ -157,7 +138,6 @@ def evaluate_piece(piece: chess.Piece, square: chess.Square, end_game: bool) -> 
     if piece_type == chess.QUEEN:
         mapping = queenEval
     if piece_type == chess.KING:
-        # use end game piece-square tables if neither side has a queen
         if end_game:
             mapping = (
                 kingEvalEndGameWhite
@@ -169,15 +149,7 @@ def evaluate_piece(piece: chess.Piece, square: chess.Square, end_game: bool) -> 
 
     return mapping[square]
 
-
 def evaluate_board(board: chess.Board) -> float:
-    """
-    Evaluates the full board and determines which player is in a most favorable position.
-    The sign indicates the side:
-        (+) for white
-        (-) for black
-    The magnitude, how big of an advantage that player has
-    """
     total = 0
     end_game = check_end_game(board)
 
@@ -193,12 +165,6 @@ def evaluate_board(board: chess.Board) -> float:
 
 
 def check_end_game(board: chess.Board) -> bool:
-    """
-    Are we in the end game?
-    Per Michniewski:
-    - Both sides have no queens or
-    - Every side which has a queen has additionally no other pieces or one minorpiece maximum.
-    """
     queens = 0
     minors = 0
 
