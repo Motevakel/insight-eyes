@@ -50,6 +50,10 @@ A chess-engine is usually a back-end with a command line interface without graph
    - [**Simplified Evaluation Function**](https://www.chessprogramming.org/Simplified_Evaluation_Function): <br />
         The content of this page has been originally posted by Tomasz Michniewski on the Polish chess programming discussion list (progszach) It contains a proposal of extremely basic evaluation function required from the participants of a "Unified Evaluation" test tournament. Please note that the values presented here have been designed specifically to compensate for the lack of any other chess knowledge, and not for being supplemented by it. There are two parts to this email, the first is about simple piece values, the second is about piece-square tables.
 
+## Authors
+   - [**@dotOnion**](https://d0t0n10n.github.io/)
+   - Praise to [**Andrew Healey**](https://github.com/healeycodes) and **Roma Parramore** for their [**Andoma**](https://github.com/healeycodes/andoma).
+
 ## Use
 
 Use the following command to install the required packages:
