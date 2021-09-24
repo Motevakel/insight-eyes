@@ -55,11 +55,31 @@ A chess-engine is usually a back-end with a command line interface without graph
    - Praise to [**Andrew Healey**](https://github.com/healeycodes) and **Roma Parramore** for their [**Andoma**](https://github.com/healeycodes/andoma).
 
 ## Installation
-You can install all the necessary packages and libraries with the following command: <br />
+You can install all the necessary packages and libraries with the following command:
 
-`
-pip3 install -r requirements.txt
-`
+`$ pip3 install -r requirements.txt`
+
+## Usage
+You can use this projectwith the following command:
+
+```
+$ python3 main.py
+
+Start as a [b]lack bead or [w]hite bead?
+w
+
+  8 ♖ ♘ ♗ ♕ ♔ ♗ ♘ ♖
+  7 ♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+  6 · · · · · · · ·
+  5 · · · · · · · ·
+  4 · · · · · · · ·
+  3 · · · · · · · ·
+  2 ♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+  1 ♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+    a b c d e f g h
+    
+Your move (Like: g1h3):
+```
 
 ## License
 ```
