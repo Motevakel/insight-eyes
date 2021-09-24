@@ -41,6 +41,15 @@ This project is a chess AI ([chess-engine](https://en.wikipedia.org/wiki/Chess_e
 <br />
 A chess-engine is usually a back-end with a command line interface without graphics or windows. Engines are usually used with a front-end, a graphical user interface with window like Chessbase or WinBoard. Many chess engines are now available for mobile phones and tablets, making them even more accessible. Chess engines can play against multiple engines without having to learn a new user interface for each one. So different engines can play against other and the user can play with multiple engines.
 
+## Tech Stack
+   - [**Alpha–beta Pruning**](https://en.wikipedia.org/wiki/Alpha%E2%80%93beta_pruning) for move searching: <br />
+        Alpha-Beta Pruning is a search algorithm that aims to reduce the number of nodes evaluated by the minimax algorithm in its search tree. It is an adversarial search algorithm commonly used for machine play of two-person games. It stops evaluating a move when it finds at least one possibility that proves the move is worse than a previously examined move. When applied to a standard minimax tree, it returns the same move as the minimax but cuts off branches that cannot affect the final decision.
+        
+   - [**Move Ordering**](https://www.chessprogramming.org/Move_Ordering): <br />
+        For the alpha-beta algorithm to perform well, the best moves need to be searched first. The goal is to become close to the minimal tree. On the other hand - at Cut-nodes - the best move is not always the cheapest refutation. Most important inside an iterative deepening framework is to try the principal varieties of the previous iteration as the leftmost path for the next iteration, which might be applied by an explicit triangular PV-table or implicit by the transposition table.
+   - [**Simplified Evaluation Function**](https://www.chessprogramming.org/Simplified_Evaluation_Function): <br />
+        The content of this page has been originally posted by Tomasz Michniewski on the Polish chess programming discussion list (progszach) It contains a proposal of extremely basic evaluation function required from the participants of a "Unified Evaluation" test tournament. Please note that the values presented here have been designed specifically to compensate for the lack of any other chess knowledge, and not for being supplemented by it. There are two parts to this email, the first is about simple piece values, the second is about piece-square tables.
+
 ## Use
 
 Use the following command to install the required packages:
