@@ -81,6 +81,11 @@ w
 Your move (Like: g1h3):
 ```
 
+## ScreenShots
+
+![Image 1](./screenshots/1st.png) <br />
+![Image 2](./screenshots/2nd.png)
+
 ## License
 ```
 MIT License
