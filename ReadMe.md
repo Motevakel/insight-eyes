@@ -54,19 +54,12 @@ A chess-engine is usually a back-end with a command line interface without graph
    - [**@dotOnion**](https://d0t0n10n.github.io/)
    - Praise to [**Andrew Healey**](https://github.com/healeycodes) and **Roma Parramore** for their [**Andoma**](https://github.com/healeycodes/andoma).
 
-## Use
+## Installation
+You can install all the necessary packages and libraries with the following command: <br />
 
-Use the following command to install the required packages:
-```bash
+`
 pip3 install -r requirements.txt
-```
-
-Now is the time to run and use this project:
-```bash
-python3 main.py
-```
-
-Finally enjoy the game!
+`
 
 ## License
 ```
