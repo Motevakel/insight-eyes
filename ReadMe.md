@@ -91,7 +91,7 @@ Your move (Like: g1h3):
 
 ## Demo
 
-You can easily run and enjoy this project in [ReplIt](https://replit.com/)
+You can easily run and enjoy this project in [ReplIt](https://replit.com/):
 
 [![Run on Repl.it](https://repl.it/badge/github/d0t0n10n/insight-eyes)](https://repl.it/github/d0t0n10n/insight-eyes)
 
@@ -121,7 +121,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-## Ending!
+## Ending
 
 If you have any feedback, please reach out to us at [here](mailto:d0t0n10n@pm.me). <br />
 And here is a related project: [**Andoma**](https://github.com/healeycodes/andoma) by [**Andrew Healey**](https://github.com/healeycodes) and **Roma Parramore**!
