@@ -86,6 +86,11 @@ Your move (Like: g1h3):
 ![Image 1](./screenshots/1.png) <br />
 ![Image 2](./screenshots/2.png)
 
+## Demo
+You can easily run and enjoy this project in [ReplIt](https://replit.com/)
+
+[![Run on Repl.it](https://repl.it/badge/github/d0t0n10n/insight-eyes)](https://repl.it/github/d0t0n10n/insight-eyes)
+
 ## License
 ```
 MIT License
