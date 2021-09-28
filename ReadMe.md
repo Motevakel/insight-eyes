@@ -8,6 +8,10 @@
         <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" />
     </a>
     <br />
+    <a href="https://github.com/d0t0n10n/Insight-Eyes">
+        <img src="https://img.shields.io/github/last-commit/d0t0n10n/Insight-Eyes.svg" />
+    </a>
+    <br />
     <a href="https://github.com/Naereen?tab=followers">
         <img src="https://img.shields.io/github/followers/d0t0n10n.svg?style=social&label=Follow&maxAge=2592000" />
     </a>
@@ -30,6 +34,16 @@
     </a>
     <a href="https://open.vscode.dev/d0t0n10n/Insight-Eyes">
         <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
+    </a>
+    <br />
+    <a href="https://github.com/d0t0n10n/Insight-Eyes">
+        <img src="https://img.shields.io/github/repo-size/d0t0n10n/Insight-Eyes" />
+    </a>
+    <a href="https://github.com/d0t0n10n/Insight-Eyes">
+        <img src="https://tokei.rs/b1/github/d0t0n10n/Insight-Eyes?category=files" />
+    </a>
+    <a href="https://github.com/d0t0n10n/Insight-Eyes">
+        <img src="https://tokei.rs/b1/github/d0t0n10n/Insight-Eyes?category=lines" />
     </a>
 </h1>
 
