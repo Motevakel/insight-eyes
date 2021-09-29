@@ -8,7 +8,7 @@
         <img src="https://badges.frapsoft.com/os/v3/open-source.svg?v=103" />
     </a>
     <br />
-    <a href="https://github.com/d0t0n10n/Insight-Eyes">
+    <a href="https://github.com/d0t0n10n/Insight-Eyes/commits/main">
         <img src="https://img.shields.io/github/last-commit/d0t0n10n/Insight-Eyes.svg" />
     </a>
     <br />
