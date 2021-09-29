@@ -139,5 +139,3 @@ SOFTWARE.
 
 If you have any feedback, please reach out to us at [here](mailto:d0t0n10n@pm.me). <br />
 And here is a related project: [**Andoma**](https://github.com/healeycodes/andoma) by [**Andrew Healey**](https://github.com/healeycodes) and **Roma Parramore**!
-
-test
