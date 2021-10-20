@@ -29,13 +29,6 @@
         <img src="https://img.shields.io/github/forks/d0t0n10n/insight-eyes.svg?style=social&label=Fork&maxAge=2592000" />
     </a>
     <br />
-    <a href="https://python.org">
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
-    </a>
-    <a href="https://open.vscode.dev/d0t0n10n/insight-eyes">
-        <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
-    </a>
-    <br />
     <a href="https://github.com/d0t0n10n/insight-eyes">
         <img src="https://img.shields.io/github/repo-size/d0t0n10n/insight-eyes" />
     </a>
@@ -44,6 +37,16 @@
     </a>
     <a href="https://github.com/d0t0n10n/insight-eyes">
         <img src="https://tokei.rs/b1/github/d0t0n10n/insight-eyes?category=lines" />
+    </a>
+    <br />
+    <a href="https://python.org">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+    </a>
+    <a href="https://open.vscode.dev/d0t0n10n/insight-eyes">
+        <img src="https://open.vscode.dev/badges/open-in-vscode.svg" />
+    </a>
+    <a href="https://repl.it/github/d0t0n10n/insight-eyes">
+        <img src="https://repl.it/badge/github/d0t0n10n/insight-eyes" />
     </a>
 </h1>
 
@@ -103,13 +106,9 @@ Your move (Like: g1h3):
 ![Image 1](./screenshots/1.png) <br />
 ![Image 2](./screenshots/2.png)
 
-## Demo
-
-You can easily run and enjoy this project in [ReplIt](https://replit.com/):
-
-[![Run on Repl.it](https://repl.it/badge/github/d0t0n10n/insight-eyes)](https://repl.it/github/d0t0n10n/insight-eyes)
-
 ## License
+
+[MIT](https://github.com/d0t0n10n/insight-eyes/blob/main/license)
 
 ```
 MIT License
